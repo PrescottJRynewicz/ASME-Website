@@ -1,0 +1,107 @@
+body
+{
+    background:url("../images/ASMELogoFinal.png") no-repeat 50% 22%,
+    url("../images/Background3.png") no-repeat center center fixed;
+    -webkit-background-size:28%, cover;
+    -moz-background-size:28%, cover;
+    -o-background-size: 28%, cover;
+    background-size: 28%, cover;
+    margin:0;
+
+}
+
+
+@media only screen and (min-width: 500px)
+{
+    #background
+    {
+        padding:350px;
+    }
+
+}
+
+
+
+#header
+{
+    position:absolute;
+    font-size:10px;
+    margin-top:30%;
+    text-align;center;
+    top:100px;
+    width:100%;
+    font-family:verdana;
+    color:white;
+    font-weight:900;
+
+}
+@media only screen and (min-width: 768px)
+{
+    #header
+    {
+        top:30px;
+    }
+}
+h1
+{
+    text-align:center;
+    color: rgb(256,200,120);
+}
+h2,h3
+{
+    text-align:center;
+    color: rgb(211,211,211);
+}
+
+#nav
+{
+    position:absolute;
+    top:130px;
+    left:-30px;
+    font-family:verdana;
+}
+@media only screen and (min-width: 768px)
+{
+    #nav
+    {
+        top:10px;
+    }
+}
+#nav li
+{
+    left: 10px;
+}
+@media only screen and (min-width: 768px)
+{
+    #nav li
+    {
+        left: 50px;
+    }
+}
+
+#nav li a
+{
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: normal;
+    color:rgb(211,211,211);
+    transition: color 1s,font-size 1s;
+
+}
+@media only screen and (min-width: 768px)
+{
+    #nav li a
+    {
+
+        color: rgb(211,211,211);
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    #nav li a:hover
+    {
+        color:rgb(256,200,120);
+    }
+}
